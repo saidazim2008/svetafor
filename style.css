@@ -1,0 +1,39 @@
+.container{
+	width:100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.boxs {
+	padding: 20px 0px;
+	background-color:#333;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:125px;
+	justify-content: space-around;
+	border-radius:50px;
+	height: 300px;
+	margin: 150px auto;
+}
+
+.box {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+
+}
+
+.box.red {
+	background-color:#FF004C;
+}
+
+.box.yellow {
+	background-color:#FFD034;
+}
+
+.box.green {
+	background-color:#72FF5C;
+}
